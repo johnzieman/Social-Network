@@ -1,0 +1,50 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.dialogs .dialogsLeftSide{
+line-height: 160%;
+padding: 10px;
+position: relative;
+}
+
+
+.dialogs .dialogsLeftSide a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+
+.dialog .dialogsLeftSide .dialog .activeLink{
+    color: chartreuse;
+}
+/* .dialogs .dialogsRightSide{
+
+}
+
+.dialogs .dialogsRightSide .message{
+
+} */
+
+.dialogs .textarea{
+    display: block;
+    width:400px;
+    height: 35px;
+    resize: none;
+    position: absolute;
+    bottom: 220px;
+}
+
+.dialogs .button{
+    display: block;
+    outline: none;
+    border: 1px solid #633A81;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 230px;
+    right: 28%;
+    height: 25px;
+}

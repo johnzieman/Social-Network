@@ -1,0 +1,27 @@
+.post{
+  padding: 10px;
+}
+
+.post .button{
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  width: 80px;
+  background: #633A81;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #633A81;
+  outline: none;
+
+}
+
+.post .button:hover{
+  background: rgb(84, 15, 133);
+}
+.post .textarea{
+  display: block;
+  resize: none;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #633A81;
+}

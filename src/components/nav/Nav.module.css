@@ -1,0 +1,16 @@
+.nav{
+    grid-area: n;
+    background: #633A81;
+    color: white;
+    line-height: 150%;
+    padding-left: 15px;
+  }
+  .nav a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav .item .activeLink{
+    color: yellow;
+  }

@@ -1,0 +1,7 @@
+.dialog .avatarItem{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #633A81;
+    display: inline-block;
+}
